@@ -1,0 +1,109 @@
+#message {
+  width: 50%;
+  height: 110px;
+  max-height: 110px;
+  background: transparent;
+  outline: none;
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 0.875em;
+  border: solid 2px black;
+}
+
+#name,
+#email {
+  font-family: "Robo", sans-serif;
+  font-size: 0.875em;
+  width: 50%;
+  height: 50px;
+  background: transparent;
+  outline: none;
+  color: black;
+  border: solid 2px black;
+  border-bottom: none;
+}
+
+#name::placeholder,
+#email::placeholder,
+#message::placeholder {
+  color: gray;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+.centered {
+  justify-content: center;
+  align-items: center;
+}
+
+#submit {
+  margin-top: 50px;
+  font-family: "Robo", sans-serif;
+  font-size: 0.875em;
+  width: 25%;
+  height: 50px;
+  background: transparent;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: solid 2px black;
+}
+
+#submit:hover {
+  color: #e2dedb;
+  background-color: black;
+}
+
+.column {
+  flex-direction: column;
+}
+
+#form {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-left: -220px;
+  align-items: center;
+}
+
+/* ------ inputs ------- */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+/* Media Breakpoints */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container{
+    margin-left: 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Responsive Container Styles */

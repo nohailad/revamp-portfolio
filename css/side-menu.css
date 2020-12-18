@@ -1,0 +1,60 @@
+/* Style the navigation menu */
+.topnav {
+  width: 100%;
+  overflow: hidden;
+  background-color: transparent;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+/* .topnav #myLinks {
+  display: none;
+} */
+
+/* Style navigation menu links */
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
+  text-align: center;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #D59D7A;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  display: block;
+  border-bottom: black 2px solid;
+}
+
+@media only screen and (min-width: 768px) {
+  #myLinks {
+    display: none;
+  }
+}
